@@ -58,8 +58,8 @@ module "recordset" {
 
 | Name | Description |
 |------|-------------|
-| <a name="output_private_dns"></a> [private\_dns](#output\_private\_dns) | n/a |
-| <a name="output_public_dns"></a> [public\_dns](#output\_public\_dns) | n/a |
+| <a name="output_private_dns"></a> [private\_dns](#output\_private\_dns) | The private DNS name for the instance |
+| <a name="output_public_dns"></a> [public\_dns](#output\_public\_dns) | The public DNS name for the instance |
 
 ## Resources
 
