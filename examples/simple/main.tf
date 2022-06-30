@@ -11,7 +11,7 @@ resource "aws_route53_zone" "private" {
 }
 
 module "recordset" {
-  source  = "CogDisResLab/route53-recordset/aws"
+  source  = "CogDisResLab/route53-instance-recordset/aws"
   version = "0.1.0"
 
   instance     = aws_instance.example
